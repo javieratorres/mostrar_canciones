@@ -13,7 +13,7 @@
     <table>
         <thead>
             <tr>
-                <%-- <th>ID</th> --%>
+               
                 <th>Título</th>
                 <th>Artista</th>
                 <th>Álbum</th>
@@ -22,7 +22,7 @@
         <tbody>
             <c:forEach var="cancion" items="${listaCanciones}">
                 <tr>
-                    <%-- <td>${cancion.id}</td> --%>
+                
                     <td>${cancion.titulo}</td>
                     <td>${cancion.artista}</td>
                     <td>
