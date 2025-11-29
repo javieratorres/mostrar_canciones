@@ -12,8 +12,7 @@
     <h1> Canciones </h1>
     <table>
         <thead>
-            <tr>
-               
+            <tr>  
                 <th>Título</th>
                 <th>Artista</th>
                 <th>Álbum</th>
@@ -22,7 +21,6 @@
         <tbody>
             <c:forEach var="cancion" items="${listaCanciones}">
                 <tr>
-                
                     <td>${cancion.titulo}</td>
                     <td>${cancion.artista}</td>
                     <td>
